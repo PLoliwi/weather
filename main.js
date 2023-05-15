@@ -301,7 +301,7 @@ const cityWeatherDesc = document.querySelectorAll('.global-descriptions');
 const cityNames = document.querySelectorAll('.global-name');
 const countryNames = document.querySelectorAll('.country-name');
 const cities = [
-	'Konin',
+	'Los Angeles',
 	'Rabat',
 	'London',
 	'Paris',
