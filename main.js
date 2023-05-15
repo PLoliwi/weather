@@ -291,7 +291,7 @@ function displayForecast(response) {
 function formatDay(unix) {
 	const date = new Date(unix * 1000);
 	const day = date.getDay();
-	const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+	const days = ['Poniedziałek ', 'Wtorek ', 'Środa ', 'Czwartek ', 'Piątek ', 'Sobota ', 'Niedziela '];
 	return days[day];
 }
 
