@@ -214,7 +214,7 @@ function displayCurrentTemperature(response) {
 		} else if (weatherType === 'Snow') {
 			conditionMsg.innerHTML = `<i class="fa-solid fa-snowflake"></i> Dress Warm`;
 		} else if (weatherType === 'Clear') {
-			conditionMsg.innerHTML = `<i class="fa-solid fa-circle-check"></i> Ideal Conditions`;
+			conditionMsg.innerHTML = `<i class="fa-solid fa-circle-check"></i> Idealne warunki`;
 		} else if (
 			weatherType === 'Mist' ||
 			weatherType === 'Fog' ||
